@@ -1,4 +1,7 @@
-# algoliasearch bundle generation
+# algoliasearch-extensions-bundle
+
+Bundle jQuery, jQuery-ui (core, slider), Hogan, typeahead,
+algoliasearch and algoliasearch-helper for use in algoliasearch extensions integrations.
 
 ## dev
 
@@ -11,3 +14,9 @@ npm run dev
 ```sh
 npm run build
 ```
+
+## bundle.min.js
+
+The latest bundle.min.js is always in the npm package, not on github.
+
+See prepublish task in [package.json](package.json).
