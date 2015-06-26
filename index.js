@@ -6,6 +6,7 @@ module.exports = {
 };
 
 require('jquery-ui/slider');
+require('jquery-ui/sortable');
 
 // typeahead 0.10.5 is not commonJS, so we just do the firty work
 // we use 0.10.5 because typeahead 0.11 is completely broken
