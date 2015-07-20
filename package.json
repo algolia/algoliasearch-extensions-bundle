@@ -12,8 +12,8 @@
   "repository": "algolia/algoliasearch-extensions-bundle",
   "license": "MIT",
   "dependencies": {
-    "algoliasearch": "3.7.0",
-    "algoliasearch-helper": "2.1.1",
+    "algoliasearch": "3.7.4",
+    "algoliasearch-helper": "2.1.2",
     "hogan.js": "3.0.2",
     "jquery": "1.11.3",
     "jquery-ui": "1.10.5",
