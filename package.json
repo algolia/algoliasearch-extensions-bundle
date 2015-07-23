@@ -17,6 +17,7 @@
     "hogan.js": "3.0.2",
     "jquery": "1.11.3",
     "jquery-ui": "1.10.5",
+    "jquery-ui-touch-punch": "0.2.3",
     "typeahead.js": "0.10.5"
   },
   "devDependencies": {

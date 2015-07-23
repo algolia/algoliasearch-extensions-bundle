@@ -7,10 +7,14 @@ module.exports = {
 
 require('jquery-ui/slider');
 require('jquery-ui/sortable');
+require('jquery-ui/draggable');
+require('jquery-ui/mouse');
 
-// typeahead 0.10.5 is not commonJS, so we just do the firty work
-// we use 0.10.5 because typeahead 0.11 is completely broken
+// Some jQuery plugins are not commonJS compatible and thus
+// we cannot easily tell them to use our own jQuery instead of the global jQuery
+// To solve this, we do a little trick.
 var oldJQuery = window.jQuery;
 window.jQuery = module.exports.$;
+require('jquery-ui-touch-punch');
 require('typeahead.js');
 window.jQuery = oldJQuery;

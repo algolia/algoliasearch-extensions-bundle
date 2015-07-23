@@ -1,6 +1,6 @@
 # algoliasearch-extensions-bundle
 
-Bundle jQuery, jQuery-ui (core, slider, sortable), Hogan, typeahead,
+Bundle jQuery, jQuery-ui (core, slider, sortable, darggable, mouse, touch), Hogan, typeahead,
 algoliasearch and algoliasearch-helper for use in algoliasearch extensions integrations.
 
 ## dev
