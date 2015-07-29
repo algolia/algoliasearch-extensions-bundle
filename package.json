@@ -1,6 +1,6 @@
 {
   "name": "algoliasearch-extensions-bundle",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Bundle jQuery, jQuery-ui (core, slider, sortable), Hogan, typeahead, algoliasearch and algoliasearch-helper for use in algoliasearch extensions integrations",
   "main": "index.js",
   "scripts": {
