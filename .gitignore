@@ -1,3 +1,2 @@
 node_modules/
-bundle.min.js
-bundle.js
+dist/

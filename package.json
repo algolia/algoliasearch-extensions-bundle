@@ -1,24 +1,24 @@
 {
   "name": "algoliasearch-extensions-bundle",
   "version": "2.0.0",
-  "description": "Bundle jQuery, jQuery-ui (core, slider, sortable), Hogan, typeahead, algoliasearch and algoliasearch-helper for use in algoliasearch extensions integrations",
+  "description": "Bundle autocomplete.js and instantsearch.js for use in algoliasearch extensions integrations",
   "main": "index.js",
   "scripts": {
-    "dev": "watchify index.js -o bundle.min.js -d -v --standalone algoliaBundle",
-    "build": "browserify index.js --standalone algoliaBundle > bundle.js && cat bundle.js | uglifyjs > bundle.min.js",
+    "dev": "./scripts/dev.sh",
+    "build": "./scripts/build.sh",
     "prepublish": "npm run build"
   },
   "author": "Algolia <support@algolia.com>",
   "repository": "algolia/algoliasearch-extensions-bundle",
   "license": "MIT",
   "dependencies": {
-    "jquery": "1.11.3",
-    "instantsearch.js": "git://github.com/algolia/instantsearch.js.git#develop",
-    "autocomplete.js": "git://github.com/algolia/autocomplete.js.git#develop"
+    "jquery": "^1.11.3",
+    "instantsearch.js": "latest",
+    "autocomplete.js": "latest"
   },
   "devDependencies": {
-    "browserify": "11.0.0",
+    "pretty-bytes": "^2.0.1",
     "uglifyjs": "2.4.10",
-    "watchify": "3.3.0"
+    "webpack": "^1.12.2"
   }
 }
