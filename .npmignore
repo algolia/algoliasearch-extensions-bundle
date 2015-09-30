@@ -2,3 +2,4 @@
 # This file is only here to overwrite the default npmignore behavior: use .gitignore
 # if there's no .gitignore
 # https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package
+npm-shrinkwrap.json
