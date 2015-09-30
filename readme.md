@@ -1,7 +1,6 @@
 # algoliasearch-extensions-bundle
 
-Bundle jQuery, jQuery-ui (core, slider, sortable, darggable, mouse, touch), Hogan, typeahead,
-algoliasearch and algoliasearch-helper for use in algoliasearch extensions integrations.
+Bundle [jQuery](http://jquery.com/), [autocomplete.js](https://github.com/algolia/autocomplete.js) & [instantsearch.js](https://github.com/algolia/instantsearch.js) to propulse Algolia-powered extensions & plugins.
 
 ## dev
 
