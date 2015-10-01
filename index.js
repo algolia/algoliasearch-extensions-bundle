@@ -1,5 +1,10 @@
 module.exports = {
   $: require('jquery'),
-  instantsearch: require('instantsearch.js'),
+  // we ask for the non-builded version of instantsearch.js to avoid
+  // duplication of algoliasearch and algoliasearchHelper modules
+  // that's why we also need some webpack configuration and modules here
+  instantsearch: require('instantsearch.js/index'),
+  algoliasearch: require('algoliasearch'),
+  algoliasearchHelper: require('algoliasearch-helper'),
   autocomplete: require('autocomplete.js/index_jquery.js')
 };

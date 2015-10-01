@@ -14,5 +14,12 @@ module.exports = {
       // https://github.com/webpack/webpack/issues/784
       jquery: require('path').join(__dirname, 'node_modules', 'jquery')
     }
+  },
+  module: {
+    loaders: [{
+      test: /\.js$/, include: /node_modules\/instantsearch\.js/, loader: 'babel'
+    }, {
+      test: /\.html$/, include: /node_modules\/instantsearch\.js/, loader: 'raw'
+    }]
   }
 };
