@@ -12,14 +12,14 @@ module.exports = {
       // it's a webpack issue with npm link, maybe solved at some point..
       // https://github.com/webpack/webpack/issues/554
       // https://github.com/webpack/webpack/issues/784
-      jquery: require('path').join(__dirname, 'node_modules', 'jquery')
+      jquery: require('path').join(__dirname, 'node_modules', 'jquery'),
     }
   },
   module: {
     loaders: [{
-      test: /\.js$/, include: /node_modules\/instantsearch\.js/, loader: 'babel'
+      test: /\.js$/, include: /instantsearch\.js/, loader: 'babel'
     }, {
-      test: /\.html$/, include: /node_modules\/instantsearch\.js/, loader: 'raw'
+      test: /\.html$/, include: /instantsearch\.js/, loader: 'raw'
     }]
   }
 };

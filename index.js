@@ -6,6 +6,6 @@ module.exports = {
   instantsearch: require('instantsearch.js/index'),
   algoliasearch: require('algoliasearch'),
   algoliasearchHelper: require('algoliasearch-helper'),
-  hogan: require('hogan.js'),
+  Hogan: require('hogan.js'),
   autocomplete: require('autocomplete.js/index_jquery.js')
 };
