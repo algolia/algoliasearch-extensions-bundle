@@ -15,6 +15,7 @@
     "algoliasearch": "^3.8.1",
     "algoliasearch-helper": "^2.4.0",
     "autocomplete.js": "latest",
+    "hogan.js": "^3.0.2",
     "instantsearch.js": "latest",
     "jquery": "^1.11.3"
   },
