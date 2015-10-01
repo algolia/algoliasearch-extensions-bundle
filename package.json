@@ -1,6 +1,6 @@
 {
   "name": "algoliasearch-extensions-bundle",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Bundle autocomplete.js and instantsearch.js for use in algoliasearch extensions integrations",
   "main": "index.js",
   "scripts": {
