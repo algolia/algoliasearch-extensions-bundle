@@ -5,8 +5,22 @@ Bundle [jQuery](http://jquery.com/), [autocomplete.js](https://github.com/algoli
 ## dev
 
 ```sh
-npm run dev
+npm run watch
 ```
+
+Then point your integration to load `http://localhost:8080/algoliaBundle.js`.
+
+You will get the bundle along with the sourcemap, you can also:
+
+```sh
+cd instantsearch.js
+npm link
+cd ../algoliasearch-extensions-bundle
+npm link instantsearch.js
+```
+
+So that you can hack the bundle from your file system and have it rebuilt when you
+save files.
 
 ## build
 

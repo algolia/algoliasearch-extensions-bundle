@@ -4,7 +4,7 @@
   "description": "Bundle autocomplete.js and instantsearch.js for use in algoliasearch extensions integrations",
   "main": "index.js",
   "scripts": {
-    "dev": "./scripts/dev.sh",
+    "watch": "webpack --watch -d & http-server dist/ & wait",
     "build": "VERSION=`cat package.json | json version` ./scripts/build.sh",
     "prepublish": "npm run build"
   },
