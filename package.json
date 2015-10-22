@@ -6,27 +6,24 @@
   "scripts": {
     "watch": "webpack --watch -d & http-server dist/ & wait",
     "build": "VERSION=`cat package.json | json version` ./scripts/build.sh",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "postinstall": "npm run build"
   },
   "author": "Algolia <support@algolia.com>",
   "repository": "algolia/algoliasearch-extensions-bundle",
   "license": "MIT",
   "dependencies": {
-    "algoliasearch": "^3.8.1",
-    "algoliasearch-helper": "^2.4.0",
+    "algoliasearch": "latest",
+    "algoliasearch-helper": "latest",
     "autocomplete.js": "latest",
     "hogan.js": "^3.0.2",
     "instantsearch.js": "latest",
-    "jquery": "^1.11.3"
-  },
-  "devDependencies": {
+    "jquery": "^1.11.3",
     "babel-core": "^5.8.25",
     "babel-loader": "^5.3.2",
     "file-loader": "^0.8.4",
     "json": "^9.0.3",
     "pretty-bytes": "^2.0.1",
-    "raw-loader": "^0.5.1",
-    "style-loader": "algolia/style-loader#3ec5a83b23607339e25fe65d51ae823ba9a8e7df",
     "uglifyjs": "2.4.10",
     "url-loader": "^0.5.6",
     "webpack": "^1.12.2"

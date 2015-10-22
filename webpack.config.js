@@ -18,8 +18,6 @@ module.exports = {
   module: {
     loaders: [{
       test: /\.js$/, include: /instantsearch\.js/, loader: 'babel'
-    }, {
-      test: /\.html$/, include: /instantsearch\.js/, loader: 'raw'
     }]
   }
 };
