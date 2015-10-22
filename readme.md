@@ -2,6 +2,8 @@
 
 Bundle [jQuery](http://jquery.com/), [autocomplete.js](https://github.com/algolia/autocomplete.js) & [instantsearch.js](https://github.com/algolia/instantsearch.js) to propulse Algolia-powered extensions & plugins.
 
+Mostly for internal Algolia usage, publicly available for transparency and ease of deployment.
+
 ## dev
 
 ```sh
@@ -28,8 +30,6 @@ save files.
 npm run build
 ```
 
-## bundle.min.js
+## algoliaBundle.min.js
 
-The latest bundle.min.js is always in the npm package, not on github.
-
-See prepublish task in [package.json](package.json).
+The latest algoliaBundle.min.js is available in node_modules/algoliasearch-extensions-bundle/dist/algoliaBundle.min.js after installing with npm.

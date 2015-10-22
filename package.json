@@ -6,7 +6,6 @@
   "scripts": {
     "watch": "webpack --watch -d & http-server dist/ & wait",
     "build": "VERSION=`cat package.json | json version` ./scripts/build.sh",
-    "prepublish": "npm run build",
     "postinstall": "npm run build"
   },
   "author": "Algolia <support@algolia.com>",
