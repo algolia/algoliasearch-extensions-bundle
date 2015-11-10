@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "watch": "webpack --watch -d & http-server dist/ & wait",
-    "build": "VERSION=`cat package.json | json version` ./scripts/build.sh",
+    "build-front": "VERSION=`cat package.json | json version` ./scripts/build.sh",
+    "build-back": "VERSION=`cat package.json | json version` ./scripts/build-admin.sh",
+    "build": "npm run build-front && npm run build-back;",
     "postinstall": "npm run build"
   },
   "author": "Algolia <support@algolia.com>",
@@ -18,6 +20,8 @@
     "hogan.js": "^3.0.2",
     "instantsearch.js": "latest",
     "jquery": "^1.11.3",
+    "jquery-ui": "1.10.5",
+    "angular": "1.4.7",
     "babel-core": "^5.8.25",
     "babel-loader": "^5.3.2",
     "file-loader": "^0.8.4",
