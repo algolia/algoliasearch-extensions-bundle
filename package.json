@@ -1,6 +1,6 @@
 {
   "name": "algoliasearch-extensions-bundle",
-  "version": "4.1.0",
+  "version": "4.1.1",
   "description": "Bundle autocomplete.js and instantsearch.js for use in algoliasearch extensions integrations",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "algoliasearch-helper": "latest",
     "autocomplete.js": "latest",
     "hogan.js": "^3.0.2",
-    "instantsearch.js": "latest",
+    "instantsearch.js": "beta",
     "jquery": "^1.11.3",
     "jquery-ui": "1.10.5",
     "angular": "1.4.7",
