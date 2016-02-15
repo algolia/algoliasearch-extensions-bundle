@@ -18,7 +18,7 @@
     "algoliasearch-helper": "latest",
     "autocomplete.js": "latest",
     "hogan.js": "^3.0.2",
-    "instantsearch.js": "beta",
+    "instantsearch.js": "latest",
     "jquery": "^1.11.3",
     "jquery-ui": "1.10.5",
     "angular": "1.4.7",
