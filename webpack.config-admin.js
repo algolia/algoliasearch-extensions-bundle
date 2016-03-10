@@ -18,6 +18,7 @@ module.exports = {
       jquery: require('path').join(__dirname, 'node_modules', 'jquery')
     }
   },
+  // use the ES6 version of instantsearch.js to avoid code duplication
   module: {
     loaders: [{
       test: /\.js$/, include: /instantsearch\.js/, loader: 'babel'

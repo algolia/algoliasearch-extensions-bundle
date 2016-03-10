@@ -19,6 +19,7 @@ module.exports = {
     }
   },
   module: {
+    // use the ES6 version of instantsearch.js to avoid code duplication
     loaders: [{
       test: /\.js$/, include: /instantsearch\.js/, loader: 'babel'
     }]
