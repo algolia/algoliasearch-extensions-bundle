@@ -7,7 +7,7 @@
     "watch": "webpack --watch -d & http-server dist/ & wait",
     "build-front": "VERSION=`cat package.json | json version` ./scripts/build.sh",
     "build-back": "VERSION=`cat package.json | json version` ./scripts/build-admin.sh",
-    "build": "npm run build-front && npm run build-back;",
+    "build": "NODE_ENV=production npm run build-front && NODE_ENV=production npm run build-back;",
     "postinstall": "npm run build"
   },
   "author": "Algolia <support@algolia.com>",

@@ -12,11 +12,9 @@ printf "\n\nBuild:webpack"
 webpack --config webpack.config-admin.js
 
 printf "\n\nBuild: minify"
-cat dist/$bundle.js | uglifyjs -c warnings=false -m > dist/$bundle.min.js
-
-printf "\n\nBuild: prepend license"
-printf "$license" | cat - dist/"$bundle".js > /tmp/out && mv /tmp/out dist/"$bundle".js
-printf "$license" | cat - dist/"$bundle".min.js > /tmp/out && mv /tmp/out dist/"$bundle".min.js
+cd dist
+uglifyjs ${bundle}.js --in-source-map ${bundle}.js.map --source-map ${bundle}.min.js.map --preamble "$license" -c warnings=false -m -o ${bundle}.min.js
+cd ..
 
 printf "\n\nBuild: filesize"
 

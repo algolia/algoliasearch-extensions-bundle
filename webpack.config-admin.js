@@ -1,3 +1,5 @@
+var webpack = require('webpack');
+
 module.exports = {
   entry: './indexAdmin.js',
   output: {
@@ -6,6 +8,7 @@ module.exports = {
     library: 'algoliaAdminBundle',
     libraryTarget: 'umd'
   },
+  devtool: 'source-map',
   resolve: {
     alias: {
       // force local resolve when npm link is used, otherwise BOOM!
@@ -19,5 +22,12 @@ module.exports = {
     loaders: [{
       test: /\.js$/, include: /instantsearch\.js/, loader: 'babel'
     }]
-  }
+  },
+  plugins: [
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: JSON.stringify(process.env.NODE_ENV)
+      }
+    })
+  ]
 };
