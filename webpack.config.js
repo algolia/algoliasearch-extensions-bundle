@@ -6,7 +6,8 @@ module.exports = {
     path: './dist/',
     filename: 'algoliaBundle.js',
     library: 'algoliaBundle',
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
+    umdNamedDefine: true
   },
   devtool: 'source-map',
   resolve: {
