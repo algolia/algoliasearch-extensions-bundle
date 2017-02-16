@@ -19,4 +19,4 @@ cd ..
 
 printf "\n\nBuild: filesize"
 
-printf "=> $bundle.min.js gzipped will weight `cat dist/$bundle.min.js | gzip -9 | wc -c | pretty-bytes`\n"
+printf "=> $bundle.min.js gzipped will weigh `cat dist/$bundle.min.js | gzip -9 | wc -c | pretty-bytes`\n"
