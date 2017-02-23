@@ -1,4 +1,5 @@
 var webpack = require('webpack');
+var resolve = require('path').resolve;
 
 module.exports = {
   entry: './indexAdmin.js',
