@@ -4,6 +4,12 @@ Bundle [jQuery](http://jquery.com/), [autocomplete.js](https://github.com/algoli
 
 Mostly for internal Algolia usage, publicly available for transparency and ease of deployment.
 
+## install deps
+
+```sh
+yarn
+```
+
 ## dev
 
 ```sh
