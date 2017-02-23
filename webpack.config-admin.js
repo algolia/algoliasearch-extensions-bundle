@@ -10,14 +10,14 @@ module.exports = {
     umdNamedDefine: true
   },
   devtool: 'source-map',
+  // when module not found, find locally first
+  // helps fixing the npm link not working with webpack
+  // http://stackoverflow.com/a/33722844/147079
   resolve: {
-    alias: {
-      // force local resolve when npm link is used, otherwise BOOM!
-      // it's a webpack issue with npm link, maybe solved at some point..
-      // https://github.com/webpack/webpack/issues/554
-      // https://github.com/webpack/webpack/issues/784
-      jquery: require('path').join(__dirname, 'node_modules', 'jquery')
-    }
+    fallback: [resolve('node_modules')]
+  },
+  resolveLoader: {
+    fallback: [resolve('node_modules')]
   },
   // use the ES6 version of instantsearch.js to avoid code duplication
   module: {
