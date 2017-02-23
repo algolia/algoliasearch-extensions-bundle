@@ -6,7 +6,8 @@ module.exports = {
     path: './dist/',
     filename: 'algoliaAdminBundle.js',
     library: 'algoliaAdminBundle',
-    libraryTarget: 'umd'
+    libraryTarget: 'umd',
+    umdNamedDefine: true
   },
   devtool: 'source-map',
   resolve: {
