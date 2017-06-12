@@ -10,6 +10,10 @@ Mostly for internal Algolia usage, publicly available for transparency and ease 
 yarn
 ```
 
+## Debugging live bundle versions
+
+At any moment on a website using this bundle, you can check the exact version of dependencies by looking inside `window.algoliaBundle`.
+
 ## dev
 
 ```sh
