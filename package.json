@@ -36,7 +36,7 @@
     "babel-preset-stage-2": "^6.11.0",
     "file-loader": "^0.10.1",
     "hogan.js": "^3.0.2",
-    "instantsearch.js": "^2.9.0",
+    "instantsearch.js": "^2.10.2",
     "preact-compat": "^3.18.2",
     "jquery": "^2.2.0",
     "jquery-ui": "1.10.5",
