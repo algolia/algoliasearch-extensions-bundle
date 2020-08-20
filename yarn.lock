@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@types/googlemaps@^3.39.6":
+  version "3.39.13"
+  resolved "https://registry.yarnpkg.com/@types/googlemaps/-/googlemaps-3.39.13.tgz#a2649ac618cb15bd04ad8700c41693c8c1f90e21"
+  integrity sha512-R/k5WKe8zQHo9oFRINuX/1haKYRkKEfItnBGrSjspbXXITakRdsj6daQIdL1+Pt84lnzduWurxNA5k0fgPMQUg==
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -21,7 +26,7 @@ ajv@^4.9.1:
     co "^4.6.0"
     json-stable-stringify "^1.0.1"
 
-algoliasearch-helper@0.0.0-5a0352a, algoliasearch-helper@2.26.1, algoliasearch-helper@^2.26.0:
+algoliasearch-helper@2.26.1, algoliasearch-helper@^2.26.0, algoliasearch-helper@^3.2.2:
   version "2.26.1"
   resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-2.26.1.tgz#75bd34f095e852d1bda483b8ebfb83c3c6e2852c"
   dependencies:
@@ -30,9 +35,30 @@ algoliasearch-helper@0.0.0-5a0352a, algoliasearch-helper@2.26.1, algoliasearch-h
     qs "^6.5.1"
     util "^0.10.3"
 
-algoliasearch@3.30.0, algoliasearch@^3.27.0:
+algoliasearch@3.30.0:
   version "3.30.0"
   resolved "https://registry.yarnpkg.com/algoliasearch/-/algoliasearch-3.30.0.tgz#355585e49b672e5f71d45b9c2b371ecdff129cd1"
+  dependencies:
+    agentkeepalive "^2.2.0"
+    debug "^2.6.8"
+    envify "^4.0.0"
+    es6-promise "^4.1.0"
+    events "^1.1.0"
+    foreach "^2.0.5"
+    global "^4.3.2"
+    inherits "^2.0.1"
+    isarray "^2.0.1"
+    load-script "^1.0.0"
+    object-keys "^1.0.11"
+    querystring-es3 "^0.2.1"
+    reduce "^1.0.1"
+    semver "^5.1.0"
+    tunnel-agent "^0.6.0"
+
+algoliasearch@~3.27:
+  version "3.27.1"
+  resolved "https://registry.yarnpkg.com/algoliasearch/-/algoliasearch-3.27.1.tgz#e1af42b97dbf44a2dd3a8c907be99c0c34e48414"
+  integrity sha512-byJBhwwazBTt5/FV9s6Oe+x2bbBlho9Ts2MqKh5SNbec2uft8xwtPuvE1hkS0+4wjlw8WIiJPSOaD82FLW7doA==
   dependencies:
     agentkeepalive "^2.2.0"
     debug "^2.6.8"
@@ -1440,12 +1466,13 @@ ini@~1.3.0:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
 
-instantsearch.js@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.0.0.tgz#460579ba71579526fa6c2215fc27e7f929c08433"
-  integrity sha512-VCjly8Ec+VAgoaRJJHfGJ4YiY77o/UVAfDv9G/bfFu/cLIelA9whFyp0yqMik1yXIr4W4F81eOxf2lI3A6n1Hg==
+instantsearch.js@~4.7:
+  version "4.7.1"
+  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.7.1.tgz#8c49aa5ee5b7cdc3e3af12e770984e729e545d41"
+  integrity sha512-DJJYVr8E3WwqD+5grpHFiMwu4ZCgxOKyI2hBuqkptWT/ojEpkkA1MvK6EfUC9muc4DZM1GiYfhRgl8QKPvyV2g==
   dependencies:
-    algoliasearch-helper "0.0.0-5a0352a"
+    "@types/googlemaps" "^3.39.6"
+    algoliasearch-helper "^3.2.2"
     classnames "^2.2.5"
     events "^1.1.0"
     hogan.js "^3.0.2"

@@ -22,7 +22,7 @@
     "qs": "6.5.2"
   },
   "dependencies": {
-    "algoliasearch": "^3.27.0",
+    "algoliasearch": "~3.27",
     "algoliasearch-helper": "^2.26.0",
     "angular": "1.4.7",
     "autocomplete.js": "^0.26.0",
@@ -36,7 +36,7 @@
     "babel-preset-stage-2": "^6.11.0",
     "file-loader": "^0.10.1",
     "hogan.js": "^3.0.2",
-    "instantsearch.js": "^4.0.0",
+    "instantsearch.js": "~4.7",
     "jquery": "^2.2.0",
     "jquery-ui": "1.10.5",
     "json": "^9.0.4",
