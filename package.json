@@ -14,7 +14,7 @@
   "repository": "algolia/algoliasearch-extensions-bundle",
   "license": "MIT",
   "resolutions": {
-    "algoliasearch": "3.30.0",
+    "algoliasearch": "3.35.1",
     "algoliasearch-helper": "3.2.2",
     "events": "1.1.1",
     "preact-compat": "3.18.2",
@@ -22,7 +22,7 @@
     "qs": "6.5.2"
   },
   "dependencies": {
-    "algoliasearch": "~3.27",
+    "algoliasearch": "^3.35.1",
     "algoliasearch-helper": "^3.2.2",
     "angular": "1.4.7",
     "autocomplete.js": "^0.26.0",
