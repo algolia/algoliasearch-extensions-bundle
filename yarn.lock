@@ -26,14 +26,12 @@ ajv@^4.9.1:
     co "^4.6.0"
     json-stable-stringify "^1.0.1"
 
-algoliasearch-helper@2.26.1, algoliasearch-helper@^2.26.0, algoliasearch-helper@^3.2.2:
-  version "2.26.1"
-  resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-2.26.1.tgz#75bd34f095e852d1bda483b8ebfb83c3c6e2852c"
+algoliasearch-helper@3.2.2, algoliasearch-helper@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-3.2.2.tgz#12451c8e368935348453c8879785b20e1788c33c"
+  integrity sha512-/3XvE33R+gQKaiPdy3nmHYqhF8hqIu8xnlOicVxb1fD6uMFmxW8rGLzzrRfsPfxgAfm+c1NslLb3TzQVIB8aVA==
   dependencies:
     events "^1.1.1"
-    lodash "^4.17.5"
-    qs "^6.5.1"
-    util "^0.10.3"
 
 algoliasearch@3.30.0:
   version "3.30.0"
@@ -1466,10 +1464,10 @@ ini@~1.3.0:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
 
-instantsearch.js@~4.7:
-  version "4.7.1"
-  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.7.1.tgz#8c49aa5ee5b7cdc3e3af12e770984e729e545d41"
-  integrity sha512-DJJYVr8E3WwqD+5grpHFiMwu4ZCgxOKyI2hBuqkptWT/ojEpkkA1MvK6EfUC9muc4DZM1GiYfhRgl8QKPvyV2g==
+instantsearch.js@^4.7.2:
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/instantsearch.js/-/instantsearch.js-4.7.2.tgz#4b8932e623c52231f98711279d0c3967db75ceba"
+  integrity sha512-QnxJpu4SQeKVrfFiMWV33HuQ7arY0lzHeIhCH6MpFzOow1k3VXVEzF53j8nLKH2D6cdwaGSEsZhJMZn4OdIP+A==
   dependencies:
     "@types/googlemaps" "^3.39.6"
     algoliasearch-helper "^3.2.2"
@@ -1709,7 +1707,7 @@ loader-utils@^1.0.2:
     emojis-list "^2.0.0"
     json5 "^0.5.0"
 
-lodash@4.17.10, lodash@^4.17.4, lodash@^4.17.5:
+lodash@4.17.10, lodash@^4.17.4:
   version "4.17.10"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 

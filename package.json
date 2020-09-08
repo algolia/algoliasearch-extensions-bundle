@@ -15,7 +15,7 @@
   "license": "MIT",
   "resolutions": {
     "algoliasearch": "3.30.0",
-    "algoliasearch-helper": "2.26.1",
+    "algoliasearch-helper": "3.2.2",
     "events": "1.1.1",
     "preact-compat": "3.18.2",
     "lodash": "4.17.10",
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "algoliasearch": "~3.27",
-    "algoliasearch-helper": "^2.26.0",
+    "algoliasearch-helper": "^3.2.2",
     "angular": "1.4.7",
     "autocomplete.js": "^0.26.0",
     "babel-core": "^6.11.4",
@@ -36,7 +36,7 @@
     "babel-preset-stage-2": "^6.11.0",
     "file-loader": "^0.10.1",
     "hogan.js": "^3.0.2",
-    "instantsearch.js": "~4.7",
+    "instantsearch.js": "^4.7.2",
     "jquery": "^2.2.0",
     "jquery-ui": "1.10.5",
     "json": "^9.0.4",
