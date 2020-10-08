@@ -7,8 +7,7 @@ module.exports = {
   algoliasearch: require('algoliasearch'),
   algoliasearchHelper: require('algoliasearch-helper'),
   Hogan: require('hogan.js'),
-  autocomplete: require('autocomplete.js/index_jquery.js'),
-  angular: require('angular')
+  autocomplete: require('autocomplete.js/index_jquery.js')
 };
 
 require('jquery-ui/sortable');
