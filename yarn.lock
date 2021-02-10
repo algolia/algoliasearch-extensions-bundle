@@ -152,10 +152,10 @@ asynckit@^0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
 
-autocomplete.js@^0.36.0:
-  version "0.36.0"
-  resolved "https://registry.yarnpkg.com/autocomplete.js/-/autocomplete.js-0.36.0.tgz#94fe775fe64b6cd42e622d076dc7fd26bedd837b"
-  integrity sha512-jEwUXnVMeCHHutUt10i/8ZiRaCb0Wo+ZyKxeGsYwBDtw6EJHqEeDrq4UwZRD8YBSvp3g6klP678il2eeiVXN2Q==
+autocomplete.js@^0.38.0:
+  version "0.38.0"
+  resolved "https://registry.yarnpkg.com/autocomplete.js/-/autocomplete.js-0.38.0.tgz#9d49c2f4788fa23960275a6422ca78b310c01ef8"
+  integrity sha512-xZlqbg0LN9D1cZd4TkPJmir/Bq0+xXnp35X6i87yU2dD2wYv9E7pVU1+QKu0PbBVV2dShppwlKGMsfCYQD9OtA==
   dependencies:
     immediate "^3.2.3"
 
