@@ -42,4 +42,4 @@ npm run build
 
 ## algoliaBundle.min.js
 
-The latest algoliaBundle.min.js is available in node_modules/algoliasearch-extensions-bundle/dist/algoliaBundle.min.js after installing with npm.
+The latest algoliaBundle.min.js is managed in the `adminBundle` branch as admin supports instantsearch v2.
