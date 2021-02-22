@@ -1,6 +1,6 @@
 {
   "name": "algoliasearch-extensions-bundle",
-  "version": "4.3.9",
+  "version": "4.4.0-m1",
   "description": "Bundle autocomplete.js and instantsearch.js for use in algoliasearch extensions integrations",
   "main": "index.js",
   "scripts": {
@@ -13,11 +13,15 @@
   "author": "Algolia <support@algolia.com>",
   "repository": "algolia/algoliasearch-extensions-bundle",
   "license": "MIT",
+  "resolutions": {
+    "algoliasearch": "3.35.1",
+    "algoliasearch-helper": "2.28.1"
+  },
   "dependencies": {
-    "algoliasearch": "latest",
-    "algoliasearch-helper": "latest",
+    "algoliasearch": "^3.35.1",
+    "algoliasearch-helper": "^2.28.1",
     "angular": "1.4.7",
-    "autocomplete.js": "^0.36.0",
+    "autocomplete.js": "^0.38.0",
     "babel-core": "^6.11.4",
     "babel-loader": "^6.2.4",
     "babel-plugin-transform-react-constant-elements": "^6.9.1",
