@@ -4,6 +4,13 @@ Bundle [jQuery](http://jquery.com/), [autocomplete.js](https://github.com/algoli
 
 Mostly for internal Algolia usage, publicly available for transparency and ease of deployment.
 
+## Build Branches
+
+* `master` - Magento 1 (front, back)
+* `ISv2` - Magento 2 v1.x (front, back)
+* `ISv4` - Magento 2 v2.x/3.x (front)
+* `adminBundle` - Magento 2 v2.x/3.x (back)
+
 ## install deps
 
 ```sh
