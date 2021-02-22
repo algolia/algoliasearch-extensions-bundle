@@ -9,7 +9,7 @@ Mostly for internal Algolia usage, publicly available for transparency and ease 
 * `master` - Magento 1 (front, back)
 * `ISv2` - Magento 2 v1.x (front, back)
 * `ISv4` - Magento 2 v2.x/3.x (front)
-* `adminBundle` - Magenot 2 v2.x/3.x (back)
+* `adminBundle` - Magento 2 v2.x/3.x (back)
 
 ## install deps
 
