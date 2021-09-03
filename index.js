@@ -1,8 +1,5 @@
 module.exports = {
   $: require('jquery'),
-  // we ask for the non-builded version of instantsearch.js to avoid
-  // duplication of algoliasearch, algoliasearchHelper and hogan modules
-  // that's why we also need some webpack configuration and modules here
   instantsearch: require('instantsearch.js/dist/instantsearch.production.min.js'),
   algoliasearch: require('algoliasearch'),
   algoliasearchHelper: require('algoliasearch-helper'),
