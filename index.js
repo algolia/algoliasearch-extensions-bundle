@@ -7,5 +7,9 @@ module.exports = {
   algoliasearch: require('algoliasearch'),
   algoliasearchHelper: require('algoliasearch-helper'),
   Hogan: require('hogan.js'),
-  autocomplete: require('autocomplete.js/index_jquery.js')
+  autocomplete: require('@algolia/autocomplete-js').autocomplete,
+  getAlgoliaResults: require('@algolia/autocomplete-js').getAlgoliaResults,
+  createQuerySuggestionsPlugin: require('@algolia/autocomplete-plugin-query-suggestions'),
+  createLocalStorageRecentSearchesPlugin: require('@algolia/autocomplete-plugin-recent-searches'),
+  createAlgoliaInsightsPlugin: require('@algolia/autocomplete-plugin-algolia-insights')
 };

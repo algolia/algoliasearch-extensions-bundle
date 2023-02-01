@@ -7,7 +7,7 @@ module.exports = {
   algoliasearch: require('algoliasearch'),
   algoliasearchHelper: require('algoliasearch-helper'),
   Hogan: require('hogan.js'),
-  autocomplete: require('autocomplete.js/index_jquery.js'),
+  autocomplete: require('@algolia/autocomplete-js/dist/umd/index.production.js'),
   angular: require('angular')
 };
 
