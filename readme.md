@@ -4,6 +4,13 @@ Bundle [jQuery](http://jquery.com/), [autocomplete.js](https://github.com/algoli
 
 Mostly for internal Algolia usage, publicly available for transparency and ease of deployment.
 
+### The Extension JS Bundle
+
+Knowing the version of the library will help you understand what is available in these libraries for you to leverage in terms of customisation. This table will help you determine which documentation to reference when you start working on your customisation.
+
+| Magento Extension Version | 	autocomplete.js                                                  | instantsearch.js |
+|-------------------|-------------------------------------------------------------------| --- |
+| v3.11.0            | [1.6.3](https://github.com/algolia/autocomplete.js/tree/v1.6.3)   | [4.41.0](https://github.com/algolia/instantsearch.js/tree/v4.41.0) |
 ## install deps
 
 ```sh

@@ -13,7 +13,7 @@ webpack --config webpack.config-admin.js
 
 printf "\n\nBuild: minify"
 cd dist
-uglifyjs ${bundle}.js --in-source-map ${bundle}.js.map --source-map ${bundle}.min.js.map --preamble "$license" -c warnings=false -m -o ${bundle}.min.js
+uglifyjs ${bundle}.js -c -m -o ${bundle}.min.js
 echo "" >> ${bundle}.min.js
 cd ..
 

@@ -22,7 +22,7 @@
     "qs": "6.5.2"
   },
   "dependencies": {
-    "@algolia/autocomplete-js": "1.6.3",
+    "@algolia/autocomplete-js": "1.11.0",
     "@algolia/autocomplete-plugin-algolia-insights": "1.7.1",
     "@algolia/autocomplete-plugin-query-suggestions": "1.7.1",
     "@algolia/autocomplete-plugin-recent-searches": "1.7.1",
@@ -46,7 +46,6 @@
     "preact-compat": "^3.18.2",
     "pretty-bytes": "^2.0.1",
     "search-insights": "^2.2.1",
-    "uglifyjs": "2.4.10",
     "url-loader": "^0.5.8",
     "webpack": "^1.13.1"
   }
